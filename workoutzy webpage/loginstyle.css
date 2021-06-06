@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@font-face {
+    src: url(../fonts/LemonMilk.ttf);
+    font-family: lemon;
+}
+@font-face {
+    src: url(./fonts/Elkwood.ttf);
+    font-family: elkwood;
+}
+@font-face {
+    src: url(./fonts/Kollektif-BoldItalic.ttf);
+    font-family: kollektif;
+}
+*,
+*::before,
+*::after{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-font: 'elkwood', sans-serif;
+    --secondary-font: 'elkwood', sans-serif;
+    --body-font: 'Poppins', sans-serif;
+    --main-font-color-dark: #252525;
+    --secondary-font-color: #a8070b;
+    --body-font-color: #515151;
+}
+html{
+    font-family: var(--body-font);
+    font-size: 10px;
+    color: var(--body-font-color);
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--body-font);
+    font-size: 10px;
+    color: var(--body-font-color);
+}
+
+.content{
+    border-radius: 15px;
+    margin: 8%;
+    background-color: #e6a2a4;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: 0 0 5px 5px rgba(0,0,0, .05);
+}
+.signin-text{
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 600;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: red;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    padding: 0px;
+    color: green;
+    height: auto;
+    border-radius: 0;
+    background-color: white;
+    background-clip: padding-box;
+}
+
+.form-control:focus{
+    color: green;
+    background-color: white;
+    border-color: white;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-class{
+    border-color: red;
+    color: red;
+}
+
+.btn-class:hover{
+    background-color: red;
+    color: yellow;
+}
